@@ -1,0 +1,51 @@
+body{
+	width:100%;
+	height:100%;
+	background-color:#ECF0F1;
+	font-family: 'Scope One', serif;
+}
+.container{
+	margin-left: 100px;
+	margin-right:100px;
+	height: 1000px;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-auto-rows: 300px;
+	grid-auto-flow: row dense;
+	grid-gap: 10px;
+}
+.books{
+	background-color: #E67E22;
+	
+}
+.titlewrapper{
+	
+	padding-right:10px;
+}
+.title{
+	display:inline-block;
+	font-family: 'Glegoo', serif;
+	color:white;
+	font-size: 30px;
+	width:30%;
+}
+.login{
+	display:inline-block;
+	width:30%;
+}
+.btnlogin{
+	width:30%;
+}
+.right{
+	float:right;
+	text-align:right;
+}
+header{
+	height:70px;
+	margin-bottom: 20px;
+	width:100%;
+	background-color: #34495E;
+}
+nav, nav>span{
+	width:100%;
+}
