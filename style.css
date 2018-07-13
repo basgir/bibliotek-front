@@ -16,32 +16,21 @@ body{
 }
 .books{
 	background-color: #E67E22;
-	
 }
 .titlewrapper{
-	
 	padding-right:10px;
 }
 .title{
 	display:inline-block;
+	margin-left: 100px;
 	font-family: 'Glegoo', serif;
 	color:white;
 	font-size: 30px;
-	width:30%;
-}
-.login{
-	display:inline-block;
-	width:30%;
-}
-.btnlogin{
-	width:30%;
-}
-.right{
-	float:right;
-	text-align:right;
+	width:40%;
 }
 header{
-	height:70px;
+	height:50px;
+	padding-top: 20px;
 	margin-bottom: 20px;
 	width:100%;
 	background-color: #34495E;

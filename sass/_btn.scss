@@ -1,0 +1,43 @@
+@import "variables";
+@import "colors";
+
+$background-color: $cloud;
+$font-color: $cloud;
+
+.login{
+	display:inline-block;
+	background: $btn-login; 
+	text-align: center;
+	display: inline-block;
+	border: 2px solid $cloud;
+	@media screen and (min-width: $break-very-small) {
+		padding: 30px 90px;
+		font-size: 70px;
+		margin-top:25px;
+		margin-right: 10px;
+  	}
+  	@media screen and (min-width: $break-small) {
+		padding: 20px 60px;
+		font-size: 50px;
+		margin-top:15px;
+		margin-right: 10px;
+  	}
+	@media screen and (min-width: $break-large) {
+		padding: 6px 26px;
+		font-size: 30px;
+		margin-top:9px;
+		margin-right: 100px;
+	}
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+	text-decoration: none;
+	text-transform: uppercase;
+	color:$cloud;
+	font-family: $font-login;
+}
+.login:hover {
+      background-color: $cloud; 
+      color: $navy-blue; 
+      border: 2px solid;
+}
